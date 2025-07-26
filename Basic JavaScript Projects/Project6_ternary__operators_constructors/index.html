@@ -2,18 +2,34 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Ternary operators constructors</title>
+  <title>Ternary Operators and Constructors</title>
 
-  <!-- Link to external JavaScript -->
-  <script src="JS/main.js"></script>
+  <!-- Link to external JavaScript file -->
+  <script src="JS/main.js" defer></script>
 </head>
 <body>
 
+  <h2>Ternary Operator Example</h2>
   <p>Riders must be at least 52 centimeters tall to ride.</p>
-  <input id="Height" value="52"/>
-  <button onclick="Ride_Function()">Click here</button>
+  <input id="Height" placeholder="Enter your height (cm)" />
+  <button onclick="Ride_Function()">Can I ride?</button>
   <p id="Ride"></p>
 
+  <hr>
+
+  <h2>Vehicle Constructor Example</h2>
+  <input id="Make" placeholder="Make (e.g. Toyota)" />
+  <input id="Model" placeholder="Model (e.g. Corolla)" />
+  <input id="Year" placeholder="Year (e.g. 2020)" />
+  <input id="Color" placeholder="Color (e.g. Blue)" />
+  <button onclick="CreateVehicle()">Create Vehicle</button>
+  <p id="Vehicle_Info"></p>
+
+  <hr>
+
+  <h2>Nested Function Example</h2>
+  <button onclick="Nested_Function()">Generate Count</button>
+  <p id="Nested_Result"></p>
 
 </body>
 </html>
